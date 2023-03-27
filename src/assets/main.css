@@ -1,0 +1,32 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'Gotham';
+  src: local('Gotham'),
+  url('../src/fonts/gothampro.ttf');
+  font-weight: 400;
+}
+
+#app{
+  font-family: Gotham, serif;
+  max-width: 825px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 824px){
+  #app{
+    max-width: 555px;
+  }
+}
+@media (max-width: 549px){
+  #app{
+    max-width: 276px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
